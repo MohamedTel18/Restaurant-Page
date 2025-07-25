@@ -3,7 +3,7 @@ import { createHomepage } from './home.js';
 import { createMenu } from './menue.js';
 import { createAbout } from './about.js';
 
-alert("JavaScript is running! Welcome to Bella Vista Restaurant!");
+
 
 // Load the homepage when the page first loads
 createHomepage();
