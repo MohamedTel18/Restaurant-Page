@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MohamedTel18/Restaurant-Page.git"
@@ -16,7 +13,14 @@
   "bugs": {
     "url": "https://github.com/MohamedTel18/Restaurant-Page/issues"
   },
-  "homepage": "https://github.com/MohamedTel18/Restaurant-Page#readme",
+  "homepage": "https://MohamedTel18.github.io/Restaurant-Page",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "devDependencies": {
     "css-loader": "^7.1.2",
     "gh-pages": "^6.3.0",
